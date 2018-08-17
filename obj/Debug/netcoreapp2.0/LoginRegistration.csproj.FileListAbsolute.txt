@@ -1,0 +1,22 @@
+C:\Users\pedro0930\Desktop\C#_stack\LoginRegistration\bin\Debug\netcoreapp2.0\LoginRegistration.deps.json
+C:\Users\pedro0930\Desktop\C#_stack\LoginRegistration\bin\Debug\netcoreapp2.0\LoginRegistration.runtimeconfig.json
+C:\Users\pedro0930\Desktop\C#_stack\LoginRegistration\bin\Debug\netcoreapp2.0\LoginRegistration.runtimeconfig.dev.json
+C:\Users\pedro0930\Desktop\C#_stack\LoginRegistration\bin\Debug\netcoreapp2.0\LoginRegistration.dll
+C:\Users\pedro0930\Desktop\C#_stack\LoginRegistration\bin\Debug\netcoreapp2.0\LoginRegistration.pdb
+C:\Users\pedro0930\Desktop\C#_stack\LoginRegistration\obj\Debug\netcoreapp2.0\LoginRegistration.csprojResolveAssemblyReference.cache
+C:\Users\pedro0930\Desktop\C#_stack\LoginRegistration\obj\Debug\netcoreapp2.0\LoginRegistration.csproj.CoreCompileInputs.cache
+C:\Users\pedro0930\Desktop\C#_stack\LoginRegistration\obj\Debug\netcoreapp2.0\LoginRegistration.AssemblyInfoInputs.cache
+C:\Users\pedro0930\Desktop\C#_stack\LoginRegistration\obj\Debug\netcoreapp2.0\LoginRegistration.AssemblyInfo.cs
+C:\Users\pedro0930\Desktop\C#_stack\LoginRegistration\obj\Debug\netcoreapp2.0\LoginRegistration.dll
+C:\Users\pedro0930\Desktop\C#_stack\LoginRegistration\obj\Debug\netcoreapp2.0\LoginRegistration.pdb
+C:\Users\pedro0930\Desktop\C#_stack\Login Template\LoginRegistration\bin\Debug\netcoreapp2.0\LoginRegistration.deps.json
+C:\Users\pedro0930\Desktop\C#_stack\Login Template\LoginRegistration\bin\Debug\netcoreapp2.0\LoginRegistration.runtimeconfig.json
+C:\Users\pedro0930\Desktop\C#_stack\Login Template\LoginRegistration\bin\Debug\netcoreapp2.0\LoginRegistration.runtimeconfig.dev.json
+C:\Users\pedro0930\Desktop\C#_stack\Login Template\LoginRegistration\bin\Debug\netcoreapp2.0\LoginRegistration.dll
+C:\Users\pedro0930\Desktop\C#_stack\Login Template\LoginRegistration\bin\Debug\netcoreapp2.0\LoginRegistration.pdb
+C:\Users\pedro0930\Desktop\C#_stack\Login Template\LoginRegistration\obj\Debug\netcoreapp2.0\LoginRegistration.csprojResolveAssemblyReference.cache
+C:\Users\pedro0930\Desktop\C#_stack\Login Template\LoginRegistration\obj\Debug\netcoreapp2.0\LoginRegistration.csproj.CoreCompileInputs.cache
+C:\Users\pedro0930\Desktop\C#_stack\Login Template\LoginRegistration\obj\Debug\netcoreapp2.0\LoginRegistration.AssemblyInfoInputs.cache
+C:\Users\pedro0930\Desktop\C#_stack\Login Template\LoginRegistration\obj\Debug\netcoreapp2.0\LoginRegistration.AssemblyInfo.cs
+C:\Users\pedro0930\Desktop\C#_stack\Login Template\LoginRegistration\obj\Debug\netcoreapp2.0\LoginRegistration.dll
+C:\Users\pedro0930\Desktop\C#_stack\Login Template\LoginRegistration\obj\Debug\netcoreapp2.0\LoginRegistration.pdb

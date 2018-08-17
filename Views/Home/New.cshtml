@@ -1,0 +1,52 @@
+@{
+    ViewData["Title"] = "New";
+}
+
+@model Activity
+<body>
+    <div class="container-fluid">
+        <h1 style="display: inline-block">Dojo Activity Center</h1>
+        <a href="/Dashboard" style="display: inline-block; margin-left: 30%">Home</a>
+        <a style="margin-left: 20%" href="logout">logout</a>
+        <hr>
+        <h2>Create an Activity!</h2>
+        <form class="form-signin" asp-action="Add_Activity" asp-controller="Home" method="POST">
+            <span asp-validation-for="name" style="color:red"></span>
+            <br>
+            <label>Title</label>
+            <input type="text" asp-for="name">
+            <br>
+            <span asp-validation-for="time" style="color:red"></span>
+            <br>
+            <label>Time</label>            
+            <input type="number" min="1" max="12" step="1" asp-for="time">
+            <select name="timeType">
+                <option value="AM">AM</option>
+                <option value="PM">PM</option>
+            </select>
+
+            <br>
+            <span asp-validation-for="date" style="color:red"></span>
+            <span style="color:red">@TempData["error"]</span>
+            <br>
+            <label>Date</label>
+            <input type="date" asp-for="date">
+            <br>
+            <span asp-validation-for="duration" style="color:red"></span>
+            <br>
+            <label>Duration</label>
+            <input type="number" asp-for="duration">
+            <select name="durationType">
+                <option value="days">Days</option>
+                <option value="hours">Hours</option>
+                <option value="minutes">Minutes</option>
+            </select>
+            <br>
+            <span asp-validation-for="description" style="color:red"></span>
+            <br>
+            <textarea asp-for="description"></textarea>
+            <br>
+            <button type="submit">Create Activity</button>
+        </form>
+    </div>
+</body>

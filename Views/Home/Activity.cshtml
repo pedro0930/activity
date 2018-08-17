@@ -1,0 +1,52 @@
+@{
+    ViewData["Title"] = "Activity";
+}
+
+<body>
+    <div class="container-fluid">
+        <h1 style="display: inline-block">Dojo Activity Center</h1>
+        <a href="/Dashboard" style="display: inline-block; margin-left: 30%">Home</a>
+        <a style="margin-left: 20%" href="logout">logout</a>
+        <hr>
+
+        <h2 style="display: inline-block">@ViewBag.activity.name</h2>
+        @if(@ViewBag.userData.UserId == @ViewBag.activity.planner.UserId)
+                {
+                <form action="/Delete" method="POST">
+                    <input type="hidden" value="@ViewBag.activity.ActivityId" name="id">
+                    <button class="btn btn-primary btn-lg" style="float: right" type="submit">Delete</button>
+                </form>
+                }
+                else
+                {
+                bool can_join = true;
+                @foreach(var guest in @ViewBag.activity.guests)
+                    {
+                        if(guest.userid == @ViewBag.userData.UserId)
+                        {
+                        can_join = false;
+                        <form action="/Unjoin" method="POST">
+                            <input type="hidden" value="@guest.ParticipantId" name="id">
+                            <button class="btn btn-primary btn-lg" style="float: right" type="submit">Leave</button>
+                        </form>
+                        }
+                    }
+                        if(can_join == true)
+                        {
+                        <form action="/Join" method="POST">
+                            <input type="hidden" value="@ViewBag.activity.ActivityId" name="id">
+                            <button class="btn btn-primary btn-lg" style="float: right" type="submit">Join</button> 
+                        </form>
+                        }
+                }
+
+        <p>Event Coordinator: @ViewBag.activity.planner.first_name @ViewBag.activity.planner.last_name</p>
+        <label>Description:</label>
+        <p style="margin-left: 30px">@ViewBag.activity.description</p>
+        <label>Participants:</label>
+        @foreach(var participant in @ViewBag.activity.guests)
+        {
+            <P style="margin-left: 30px">@participant.user.first_name  @participant.user.last_name</P>
+        }
+    </div>
+</body>
